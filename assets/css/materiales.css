@@ -1,0 +1,23 @@
+#info{
+    display: flex;
+    flex-wrap: wrap;
+     /* gap: 55px; */
+}
+
+#info .material{
+    margin: 0;
+    width: 50%;
+    
+}
+#info .material img{
+    width: 25%;
+    
+}
+@media(max-width:480px) {
+    #info .material{
+        flex-wrap: 1;
+    }
+    #info .material img{
+        width: 100%;
+    }
+}
